@@ -1,0 +1,34 @@
+seed: 42
+batch_size: 128
+epochs: 10
+learning_rate: 0.001
+weight_decay: 0.0001
+val_ratio: 0.15
+num_workers: 0
+use_focal_loss: true
+focal_gamma: 2.0
+weighted_sampling: false
+label_smoothing: 0.0
+feature_scaling: standard
+hidden_channels: 32
+dropout: 0.2
+num_blocks: 3
+dilations: [1, 2, 4]
+multi_scale_kernel_sizes: [3, 5, 7]
+use_channel_attention: true
+use_temporal_attention: true
+early_stopping_patience: 5
+grad_clip_norm: 5.0
+device: auto
+
+# dataset-specific overrides (optional)
+dataset_defaults:
+  unsw_nb15:
+    data_subdir: UNSW-NB15
+    label_col: attack_cat
+  cic_ids2017:
+    data_subdir: CIC-IDS2017
+    label_col: Label
+  nsl_kdd:
+    data_subdir: NSL-KDD
+    label_col: label
