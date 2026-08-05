@@ -1,0 +1,20 @@
+{
+  "dataset": "cic_ids2017",
+  "task_mode": "binary",
+  "model": "MS-ATCN",
+  "split": "val",
+  "note": "Diagnostic metrics computed from saved probability outputs. Original metrics.json is not overwritten.",
+  "Accuracy": 0.8586779704172423,
+  "Precision": 0.8790095624870324,
+  "Recall": 0.8492158219344156,
+  "F1-score": 0.8558200996227251,
+  "Macro-F1": 0.8536256631197923,
+  "FPR": 0.0335257442287639,
+  "attack-as-positive FPR": 0.26804261190240497,
+  "AUC": 0.9177426886936618,
+  "threshold": 0.5,
+  "TN": 221513,
+  "FP": 7684,
+  "FN": 52260,
+  "TP": 142709
+}

@@ -1,0 +1,9 @@
+{
+  "config": "configs/ablation_generated/full_ms_atcn.yaml",
+  "dataset": "cic_ids2017",
+  "task_mode": "binary",
+  "data_root": "datasets",
+  "csv_path": null,
+  "label_col": null,
+  "output_dir": "results/cic_binary/ablation/full_ms_atcn_fixed"
+}
